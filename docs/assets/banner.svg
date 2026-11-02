@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="TrafficFlowBench 2026, solution of team Lukas">
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="250" rx="18"/></clipPath>
+    <g id="car">
+      <path d="M6 14 L16 3 Q18 1 21 1 H39 Q42 1 44 3 L53 14 Z"/>
+      <rect x="0" y="13" width="62" height="15" rx="6"/>
+      <path d="M17 12 L22 5 H29 V12 Z M33 12 V5 H39 L45 12 Z" fill="#E4EEF2"/>
+      <circle cx="15" cy="28" r="6.5" fill="#1E2321"/><circle cx="15" cy="28" r="2.6" fill="#B9B9B2"/>
+      <circle cx="47" cy="28" r="6.5" fill="#1E2321"/><circle cx="47" cy="28" r="2.6" fill="#B9B9B2"/>
+    </g>
+    <g id="tree">
+      <rect x="-2.5" y="-6" width="5" height="16" fill="#6B5B45"/>
+      <circle cx="0" cy="-16" r="15" fill="#5A897D"/>
+      <circle cx="-8" cy="-8" r="9" fill="#4D7A6E"/>
+    </g>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="250" fill="#F4F1EA"/>
+    <!-- title -->
+    <text x="56" y="86" font-family="Source Sans Pro, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="50" font-weight="700" fill="#33544C">TrafficFlowBench 2026</text>
+    <text x="58" y="124" font-family="Source Sans Pro, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="21" fill="#5A897D">State reconstruction, queue forecasting and path flows on simulated freeways</text>
+    <text x="58" y="152" font-family="Source Sans Pro, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" fill="#7F8A84">IEEE BigData Cup 2026 · solution of team Lukas</text>
+    <!-- scenery -->
+    <use href="#tree" x="486" y="180"/><use href="#tree" x="522" y="183"/><use href="#tree" x="780" y="181"/><use href="#tree" x="1172" y="180"/>
+    <!-- road -->
+    <rect x="0" y="186" width="1200" height="64" fill="#3B403D"/>
+    <line x1="0" y1="188" x2="1200" y2="188" stroke="#CFC8B6" stroke-width="3"/>
+    <line x1="0" y1="219" x2="1200" y2="219" stroke="#F4F1EA" stroke-width="3" stroke-dasharray="30 24" opacity="0.85"/>
+    <!-- our car, moving towards the queue -->
+    <g stroke="#CFC8B6" stroke-width="3" stroke-linecap="round" opacity="0.9">
+      <line x1="586" y1="200" x2="614" y2="200"/><line x1="576" y1="210" x2="610" y2="210"/>
+    </g>
+    <use href="#car" x="626" y="189" fill="#33544C"/>
+    <circle cx="688" cy="203" r="2.6" fill="#F1C232"/>
+    <!-- queue at a red light -->
+    <use href="#car" x="898" y="189" fill="#8E9A94"/>
+    <use href="#car" x="970" y="189" fill="#B5483A"/>
+    <use href="#car" x="1042" y="189" fill="#E2A23B"/>
+    <circle cx="900" cy="207" r="2.4" fill="#FF6B5A"/><circle cx="972" cy="207" r="2.4" fill="#FF6B5A"/><circle cx="1044" cy="207" r="2.4" fill="#FF6B5A"/>
+    <g transform="translate(1124,140)">
+      <rect x="-4" y="0" width="8" height="48" fill="#55605A"/>
+      <rect x="-11" y="-30" width="22" height="46" rx="5" fill="#2B302D"/>
+      <circle cx="0" cy="-20" r="5.5" fill="#B5483A"/>
+      <circle cx="0" cy="-5" r="5.5" fill="#5C5348"/>
+      <circle cx="0" cy="10" r="5.5" fill="#3E4A44"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="248" rx="17" fill="none" stroke="#D9D3C4" stroke-width="2"/>
+</svg>

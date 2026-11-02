@@ -1,0 +1,4 @@
+# Lint and format settings only (ruff); the code is not an installable package: run it with python -m tfb... from this directory.
+[tool.ruff]
+line-length = 140
+target-version = "py312"

@@ -1,0 +1,8 @@
+# Python 3.12; exact versions used for the selected final submissions (macOS arm64 run, verified on Linux x86-64 CPU)
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+lightgbm==4.7.0
+narwhals==2.27.1    # dependency of lightgbm, pinned to the version of the clean-room run
+torch==2.14.0

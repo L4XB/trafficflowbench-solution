@@ -1,0 +1,10 @@
+data/
+results_top3/
+cache_top3/
+submission/
+causality_runs/
+__pycache__/
+*.pyc
+.venv/
+*.tar.xz
+.DS_Store
